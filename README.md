@@ -126,8 +126,8 @@ As can be seen, there's no pods running.
 <br/>
 
 We apply the config using the command
-  - kubectl apply -f <filename>
-    eg. kubectl apply -f samplePod.yaml  
+  - kubectl apply -f filename
+  - eg. kubectl apply -f samplePod.yaml  
 
 And querying the pods, we see as follows.  
 
@@ -142,7 +142,7 @@ And querying the pods, we see as follows.
 Let's apply port-fowarding so that we can reach the pod.
 We can do this via the command
   - kubectl port-forward localport:remoteport
-    eg. kubectl port-forward 1122:80  
+  - eg. kubectl port-forward 1122:80  
 
 <br/>
 
